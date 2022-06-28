@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="first_project.css">
+        <title>Calculadora</title>
+        <body>
+            <h1>
+                Calculadora online
+            </h1>
+        </body>
+
+
+
+        <form NAME="form1" class="calci" action="FIRST_PROJECT.html" method="post">
+            <input type="text" name="res" id="display">
+            <div name="first_line">
+            <input type="button" class="btndesing" value="C" onclick="form1.res.value=''">
+            <input type="button" class="btndesing" value="<" onclick="form1.res.value=form1.res.value.substring(0,form1.res,value.length*1-1)">
+            <input type="button" class="btndesing" value="00" onclick="form1.res.value+='00'">
+            <input type="button" class="operatorDesing" value="÷" onclick="form1.res.value+='/'">
+            </div>
+            <div name="second_line">
+            <input type="button" class="btndesing" value="7" onclick="form1.res.value+='7'">
+            <input type="button" class="btndesing" value="8" onclick="form1.res.value+='8'">
+            <input type="button" class="btndesing" value="9" onclick="form1.res.value+='9'">
+            <input type="button" class="operatorDesing" value="X" onclick="form1.res.value+='*'">
+            </div>
+            <div name="thirt_line">
+            <input type="button" class="btndesing" value="4" onclick="form1.res.value+='4'">
+            <input type="button" class="btndesing" value="5" onclick="form1.res.value+='5'">
+            <input type="button" class="btndesing" value="6" onclick="form1.res.value+='6'">
+            <input type="button" class="operatorDesing" value="-" onclick="form1.res.value+='-'">
+            </div>
+            <div name="fourth_line">
+            <input type="button" class="btndesing" value="1" onclick="form1.res.value+='1'">
+            <input type="button" class="btndesing" value="2" onclick="form1.res.value+='2'">
+            <input type="button" class="btndesing"value="3" onclick="form1.res.value+='3'">
+            <input type="button" class="operatorDesing" value="+" onclick="form1.res.value+='+'">
+            </div>
+            <div name="last_line">
+            <input type="button" id="zero" value="0" onclick="form1.res.value+='0'">
+            <input type="button" class="btndesing" value="." onclick="form1.res.value+='.'">
+            <input type="button" class="operatorDesing" value="=" onclick="form1.res.value=eval(form1.res.value)">
+            
+            </div>
+            
+
+            
+
+        </form>
+       
+
+    </head>
+</html>

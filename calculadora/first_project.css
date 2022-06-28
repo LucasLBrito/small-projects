@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(calculadora.jfif);
+}
+  .calci{
+
+      width: 500px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      position: absolute;
+      top:50%;
+      left:70%;
+      transform:translate(-50%,-50%) ;
+      transition: 0.25px;
+      text-align: center;
+
+  }
+  #display{
+      border: none;
+      background:white;
+      border-radius: 30px;
+      width: 245px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 300px;
+      height: 60px;
+      margin: auto;
+      border: 2px solid white;
+      margin-bottom: 5px;
+
+  }
+  .btndesing{
+    border: none;
+    border-radius: 30px;
+    width: 55px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150px;
+    height: 55px;
+    margin: 2px;
+    border: 2px solid white;
+    
+
+
+  }
+  .operatorDesing{
+    border: none;
+    border-radius: 30px;
+    width: 55px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150px;
+    height: 55px;
+    margin: 2px;
+    border: 2px solid white;
+    transition:0.25px;
+    cursor: pointer;
+  }
+  .operatorDesing:hover{
+      background-color: dimgray;
+  }
+  .btndesing:hover{
+    background-color: dimgray;
+  }
+  #zero{
+    border: none;
+    border-radius: 30px;
+    width: 116px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150px;
+    height: 55px;
+    margin: 2px;
+    border: 2px solid white;
+    transition:0.25px;
+    cursor: pointer;
+  }
+  h1{
+      color: white;
+      margin-top: 300px;
+      margin-left: 100px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
+      text-decoration: solid;
+      margin-right: 0.2em;
+
+  }
