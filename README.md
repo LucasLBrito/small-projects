@@ -14,6 +14,6 @@ Fique à vontade para explorar os projetos neste repositório e acompanhar minha
 
 ### Contato
 
-Se você deseja entrar em contato ou colaborar em algum projeto, sinta-se à vontade para me contatar em [seu endereço de e-mail] ou [seu perfil do LinkedIn].
+Se você deseja entrar em contato ou colaborar em algum projeto, sinta-se à vontade para me contatar em lucas_lima_brito@hotmail.com ou linkedin.com/in/lucaslbrito.
 
 Obrigado por visitar este repositório e compartilhar minha paixão pelo desenvolvimento web com JavaScript.
